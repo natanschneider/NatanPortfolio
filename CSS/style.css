@@ -26,11 +26,35 @@ div.intro{
 }
 
 h1{
+    transition: all 0.5s;
+    -webkit-text-stroke: 4px #d6f4f4;
+    font-variation-settings: "wght" 988, "ital" 1;
+    font-size: 3rem;
+    text-align: center;
+    color: transparent;
+    font-family: "Meta", sans-serif;
+    text-shadow: 10px 10px 0 #07bccc,
+        15px 15px 0 #e601c0;
+    cursor: pointer;
+}
+
+h1:hover{
+    -webkit-text-stroke: 3px #d6f4f4;
+    font-variation-settings: "wght" 100, "ital" 0;
+    text-shadow: none;
+}
+
+h2 {
     color: white;
     text-align: center;
 }
 
 h3{
+    color: white;
+    text-align: center;
+}
+
+h4{
     color: white;
     text-align: center;
 }

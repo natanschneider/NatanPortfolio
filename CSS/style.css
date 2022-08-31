@@ -60,6 +60,15 @@ h4{
     text-align: left;
 }
 
+p{
+    color: white;
+    font-size: large;
+}
+
+img{
+    width: 23px;
+}
+
 main{
     transition: all 0.5s;
     -webkit-text-stroke: 4px #d6f4f4;

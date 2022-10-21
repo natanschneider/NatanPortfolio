@@ -1,17 +1,17 @@
-html{
-    scroll-behavior: smooth;
+*{
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
-html, body {
+html, body{
     margin: 0;
     height:100%;
     width:100%;
     padding:0;
-    scroll-behavior: smooth;
-    background-color: #2b2552;
+    background-color: #171041;
 }
 
-section {
+section:not(#projects){
     display: block;
     height:100%;
     width:100%;
@@ -23,58 +23,25 @@ section {
 div{
     width: 100%;
     margin-top: 10%;
-
 }
 
-h1{
-    transition: all 0.5s;
-    -webkit-text-stroke: 4px #d6f4f4;
-    font-variation-settings: "wght" 988, "ital" 1;
-    font-size: 3rem;
-    text-align: left;
-    color: transparent;
-    font-family: "Meta", sans-serif;
-    text-shadow: 10px 10px 0 #07bccc,
-        15px 15px 0 #e601c0;
-    cursor: pointer;
-}
-
-h1:hover{
-    -webkit-text-stroke: 3px #d6f4f4;
-    font-variation-settings: "wght" 100, "ital" 0;
-    text-shadow: none;
-}
-
-h2 {
-    color: white;
-    text-align: left;
-}
-
-h3{
-    color: white;
-    text-align: left;
-}
-
-h4{
-    color: white;
-    text-align: left;
-}
-
-p{
-    color: white;
+#navSectionLinks{
+    color: #05646d9c;
+    font-weight: bold;
     font-size: large;
+    padding-left: 92%;
+
 }
 
-img{
-    width: 23px;
+#intro{
+    background-color: #2b2552;
 }
 
-main{
+#effectName{
     transition: all 0.5s;
-    -webkit-text-stroke: 4px #d6f4f4;
+    -webkit-text-stroke: 2px #d6f4f4;
     font-variation-settings: "wght" 988, "ital" 1;
-    font-size: 10rem;
-    text-align: left;
+    font-size: 6rem;
     color: transparent;
     font-family: "Meta", sans-serif;
     text-shadow: 10px 10px 0 #07bccc,
@@ -85,12 +52,30 @@ main{
     cursor: pointer;
 }
 
-main:hover{
-    -webkit-text-stroke: 3px #d6f4f4;
+#effectName:hover{
+    -webkit-text-stroke: 1px #d6f4f4;
     font-variation-settings: "wght" 100, "ital" 0;
     text-shadow: none;
 }
 
 #about-me{
-    background-color: #1b420c;
+    background-color: #302579;
+}
+
+#skillIcon{
+    height: 40px;
+}
+
+#projects{
+    background-color: #171041;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#projectCard{
+    background-color: #5a518d;
+}
+
+#socialCard{
+    background-color: #2b2552;
 }

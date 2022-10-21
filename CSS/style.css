@@ -25,15 +25,23 @@ div{
     margin-top: 10%;
 }
 
+#navSectionLinks{
+    color: #05646d9c;
+    font-weight: bold;
+    font-size: large;
+    padding-left: 92%;
+
+}
+
 #intro{
     background-color: #2b2552;
 }
 
 #effectName{
     transition: all 0.5s;
-    -webkit-text-stroke: 4px #d6f4f4;
+    -webkit-text-stroke: 2px #d6f4f4;
     font-variation-settings: "wght" 988, "ital" 1;
-    font-size: 10rem;
+    font-size: 6rem;
     color: transparent;
     font-family: "Meta", sans-serif;
     text-shadow: 10px 10px 0 #07bccc,
@@ -45,7 +53,7 @@ div{
 }
 
 #effectName:hover{
-    -webkit-text-stroke: 3px #d6f4f4;
+    -webkit-text-stroke: 1px #d6f4f4;
     font-variation-settings: "wght" 100, "ital" 0;
     text-shadow: none;
 }
@@ -55,7 +63,7 @@ div{
 }
 
 #skillIcon{
-    width: 35px;
+    height: 40px;
 }
 
 #projects{

@@ -29,8 +29,7 @@ div{
     color: #05646d9c;
     font-weight: bold;
     font-size: large;
-    padding-left: 92%;
-
+    padding-left: 85%;
 }
 
 #intro{
@@ -76,6 +75,13 @@ div{
     background-color: #5a518d;
 }
 
-#socialCard{
-    background-color: #2b2552;
+#socials{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#socialIcon{
+    height: 50px;
+    fill: white;
 }

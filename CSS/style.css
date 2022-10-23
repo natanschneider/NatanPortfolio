@@ -29,8 +29,7 @@ div{
     color: #05646d9c;
     font-weight: bold;
     font-size: large;
-    padding-left: 92%;
-
+    padding-left: 85%;
 }
 
 #intro{
@@ -64,6 +63,7 @@ div{
 
 #skillIcon{
     height: 40px;
+    padding-top: 7px;
 }
 
 #projects{
@@ -76,6 +76,17 @@ div{
     background-color: #5a518d;
 }
 
-#socialCard{
+#socials{
     background-color: #2b2552;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#socialIcon{
+    height: 50px;
+    fill: white;
+}
+
+.socialIconLeft{
+    padding-left: 10rem;
 }

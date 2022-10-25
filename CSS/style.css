@@ -90,3 +90,87 @@ div{
 .socialIconLeft{
     padding-left: 10rem;
 }
+
+@media screen and (max-width: 980px) and (min-width: 540px){
+    #effectName{
+        transition: all 0.5s;
+        -webkit-text-stroke: 1px #d6f4f4;
+        font-variation-settings: "wght" 988, "ital" 1;
+        font-size: 4rem;
+        color: transparent;
+        font-family: "Meta", sans-serif;
+        text-shadow: 5px 5px 0 #07bccc,
+        10px 10px 0 #e601c0,
+        10px 10px 0 #e9019a,
+        15px 15px 0 #f40468,
+        25px 25px 5px #482896;
+        cursor: pointer;
+    }
+
+    #socialIcon{
+        height: 25px;
+    }
+
+    .socialIconLeft{
+        padding-left: 2rem;
+    }
+
+    #mailP{
+        font-size: medium;
+    }
+
+    #resume{
+        font-size: medium;
+    }
+
+    #skillIcon{
+        height: 25px;
+        padding-top: 4px;
+    }
+
+    #navSectionLinks{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 540px){
+    *{
+        font-size: small;
+    }
+    
+    h3{
+        font-size: small;
+    }
+
+    #effectName{
+        transition: all 0.5s;
+        -webkit-text-stroke: 1px #d6f4f4;
+        font-variation-settings: "wght" 988, "ital" 1;
+        font-size: 4rem;
+        color: transparent;
+        font-family: "Meta", sans-serif;
+        text-shadow: 5px 5px 0 #07bccc,
+        10px 10px 0 #e601c0,
+        10px 10px 0 #e9019a,
+        15px 15px 0 #f40468,
+        25px 25px 5px #482896;
+        cursor: pointer;
+    }
+
+    #socialIcon{
+        height: 25px;
+    }
+
+    .socialIconLeft{
+        padding-left: 2rem;
+    }
+
+    #skillIcon{
+        height: 15px;
+        padding-top: 3px;
+    }
+
+    #navSectionLinks{
+        display: none;
+    }
+}

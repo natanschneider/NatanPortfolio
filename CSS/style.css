@@ -15,8 +15,7 @@ section:not(#projects){
     display: block;
     height:100%;
     width:100%;
-    padding: 60px;
-    padding-left: 120px;
+    padding: 60px 60px 60px 120px;
     box-sizing:border-box;
 }
 
@@ -166,7 +165,7 @@ div{
     }
 
     #skillIcon{
-        height: 15px;
+        height: 35px;
         padding-top: 3px;
     }
 

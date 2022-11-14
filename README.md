@@ -3,8 +3,5 @@ My portfolio website. Made with html, CSS and Bootstrap.
 
 ![alt](img/screenshots/portfolio.png)
 
-### What's being done in the Development branch:
-
-Style improvements. <br>
-English version <br>
-Articles page, with Node.JS and Markdown to HTML.
+Check the Main branch for the latest stable version.
+Development branch for the latest commits.
